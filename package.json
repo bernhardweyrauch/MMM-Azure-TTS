@@ -1,0 +1,30 @@
+{
+  "name": "MMM-Azure-TTS",
+  "version": "1.0.0",
+  "description": "Magic Mirror Module for Text-To-Speech using Microsoft Azure Cloud Cognitive Services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernhardweyrauch/MMM-Azure-TTS"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "Text-To-Speech",
+    "TextToSpeech",
+    "TTS",
+    "azure",
+    "cloud",
+    "module"
+  ],
+  "author": "Bernhard Weyrauch",
+  "contributors": "https://github.com/bernhardweyrauch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernhardweyrauch/MMM-Azure-TTS/issues"
+  },
+  "homepage": "https://github.com/bernhardweyrauch/MMM-Azure-TTS",
+  "dependencies": {
+    "python-shell": "^0.4.0",
+    "play-sound": "^1.1.3"
+  }
+}
