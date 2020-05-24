@@ -26,9 +26,10 @@ Module.register("MMM-Azure-TTS", {
     this.sendSocketNotification("Azure_TTS_Config", this.config);
   },
 
-  getDom: function () {
-    return "";
-  },
+  getDom: function() {
+		var wrapper = document.createElement("div");
+		return wrapper;
+	}
 
   getStyles: function() {
     return [];
